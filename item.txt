@@ -1,0 +1,99 @@
+import React from 'react'
+
+const MySkills = () => {
+  return (
+    <section className="skills--section" id="mySkills">
+    <div className="portfolio--container">
+      <p className="section--title">My Skills</p>
+      <h2 className="skills--section--heading">My Expertise</h2>
+    </div>
+    <div className="skills--section--container">
+        <div className="skills--section--card">
+          <div className="skills--section--img">
+          <img src="./img/product-chain-1.png" alt="Product chain" />
+          </div>
+          <div className="skills--section--card--content">
+            <h3 className="skills--section--title">Programming Language</h3>
+            <ul className="flex">
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                HTML
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer">
+                CSS
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                JavaScript
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div className="skills--section--card">
+          <div className="skills--section--img">
+          <img src="./img/product-chain-1.png" alt="Product chain" />
+          </div>
+          <div className="skills--section--card--content">
+            <h3 className="skills--section--title">Programming Language</h3>
+            <ul className="flex flex-wrap">
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                React Js
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer">
+                Redux
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                React routing
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                Express Js
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                Node Js
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                MongoDB
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                Bootstrap
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                Tailwind CSS
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer ">
+                MERN
+              </li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div className="skills--section--card">
+          <div className="skills--section--img">
+            <img src="./img/product-chain-1.png" alt="Product chain" />
+          </div>
+          <div className="skills--section--card--content">
+            <h3 className="skills--section--title">Other Skills</h3>
+            <ul className="flex">
+                <li className="bg-[#5e3bee] px-6 py-2 m-2  font-bold rounded-3xl text-lg cursor-pointer">
+                RESTAPI
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer">
+                JSON
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer">
+                GitHub
+              </li>
+              <li className="bg-[#5e3bee] px-6 py-3 m-2 font-bold rounded-3xl text-lg cursor-pointer">
+                Postman
+              </li>
+            </ul>
+          </div>
+        </div>
+    </div>
+  </section>
+  )
+}
+
+export default MySkills
+
