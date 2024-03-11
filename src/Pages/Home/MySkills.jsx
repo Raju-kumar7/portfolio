@@ -21,7 +21,7 @@ export default function MySkills() {
             <img src="./img/product-chain-1.png" alt="Product Chain" />
           </div>
           <div className="skills--section--card--content">
-            <h3 className="skills--section--title">Programming Language</h3>
+            <h3 className="skills--section--title">Web Stack</h3>
             <ul>
               <span className="skills--section--description border border-black mx-3 my-2 px-3 py-2 rounded-full bg-[#5e3bee] cursor-pointer">
                 HTML

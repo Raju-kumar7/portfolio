@@ -1,3 +1,4 @@
+import GitHub from '@mui/icons-material/GitHub'
 import React from 'react'
 import { Link } from 'react-router-dom'
 
@@ -93,8 +94,8 @@ const Footer = () => {
               </a>
             </li>
             <li>
-              <a
-                href="https://www.linkedin.com/"
+              <Link
+                to="https://www.linkedin.com/in/raju-kumar-40b726184/"
                 className="navbar--content"
                 target="_blank"
                 rel="noreferrer"
@@ -113,8 +114,14 @@ const Footer = () => {
                     fill="black"
                   />
                 </svg>
-              </a>
+              </Link>
             </li>
+            <Link
+            to="https://github.com/Raju-kumar7"
+            target="_blank"
+            className="navbar--content text-black w-5 cursor-pointer text-xl">
+              <GitHub/>
+            </Link>
           </ul>
         </div>
       </div>

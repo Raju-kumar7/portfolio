@@ -2,7 +2,7 @@ import React from "react";
 
 const HeroSection = () => {
   const downloadPDF = () => {
-    const pdfFilePath = './img/RAJU.pdf';
+    const pdfFilePath = './img/RAJUK.pdf';
     const link = document.createElement('a');
     link.href = pdfFilePath;
     link.download = 'downloaded-file.pdf';
@@ -28,7 +28,7 @@ const HeroSection = () => {
         <button className="btn btn-primary" onClick={downloadPDF}>Download Resume</button>
       </div>
       <div className="hero--section--img lg:w-[600px] lg:h-[650px]">
-        <img src="./img/rajuk.jpeg" alt="Hero Section" className="rounded-md" />
+        <img src="./img/raju_nw.jpeg" alt="Hero Section" className="rounded-md" />
       </div>
     </section>
   );
